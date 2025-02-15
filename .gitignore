@@ -1,0 +1,9 @@
+# Ignore the virtual environment folder
+app/myenv
+
+# Ignore the .env file in the app folder
+app/.env
+
+app/__pycache__
+
+__pycache__
