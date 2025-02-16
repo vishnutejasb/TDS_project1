@@ -28,8 +28,8 @@ WORKDIR /app
 RUN mkdir -p /data
 
 # Copy main.py from the host's app directory to the container's /test_app directory
-COPY main.py /app
-COPY function_tasks.py /app
+COPY ./app/main.py /app
+COPY ./app/function_tasks.py /app
 
 
 # Command to run the FastAPI app using uvicorn
